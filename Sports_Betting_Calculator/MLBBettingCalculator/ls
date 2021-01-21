@@ -1,0 +1,14 @@
+import getTodaysGames
+import calculateWinProbability
+import game
+import datetime
+
+#creates a list of Game objects for each game today
+todaysGames = getTodaysGames.getGames()
+#iterate through the list of games, get Data and print out what moneylines to bet them at
+
+for game in todaysGames:
+    print (f'{game.homeTeam} ({game.homePitcher}) vs. {game.roadTeam} ({game.roadPitcher})')
+todaysGames[0].getData()
+
+print(todaysGames[0].roadTeam + ": " + str(todaysGames[0].roadTeamData))
