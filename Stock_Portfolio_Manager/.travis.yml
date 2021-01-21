@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - openjdk8
+services:
+  - mysql
+before_install:
+  - mysql -u root --password="" < sql_code/db_script.sql
+branches:
+  only:
+  - develop

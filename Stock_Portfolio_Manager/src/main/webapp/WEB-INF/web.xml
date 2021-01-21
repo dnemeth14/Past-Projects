@@ -1,0 +1,50 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Project2</display-name>
+    <servlet>
+        <servlet-name>GraphData</servlet-name>
+        <servlet-class>csci310.servlets.GraphData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GraphData</servlet-name>
+        <url-pattern>/graphdata</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>csci310.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CreateAccountServlet</servlet-name>
+        <servlet-class>csci310.servlets.CreateAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateAccountServlet</servlet-name>
+        <url-pattern>/CreateAccountServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>csci310.servlets.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>PortfolioSummary</servlet-name>
+        <servlet-class>csci310.servlets.PortfolioSummary</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PortfolioSummary</servlet-name>
+        <url-pattern>/portfoliosummary</url-pattern>
+    </servlet-mapping>
+</web-app>

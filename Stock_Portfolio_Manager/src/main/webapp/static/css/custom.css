@@ -1,0 +1,16 @@
+.pageBanner {
+    color: #ffffff;
+    background-color: #787878;
+}
+
+.container {
+    margin: 20px auto;
+    height: 50vh;
+    position: relative;
+}
+
+.chart-container {
+    height: 90%;
+    position: relative;
+    text-align: center;
+}

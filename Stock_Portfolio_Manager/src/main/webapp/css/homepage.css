@@ -1,0 +1,21 @@
+.logout {
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logout input[type="button"] {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: #ad4747;
+  border: 0px solid #f2f2f2;
+  border-radius: 5px;
+  color: #FFF;
+  text-transform:uppercase;
+  cursor: pointer;
+  float: right;
+}
+
+.logout input[type="button"]:hover {
+  background-color: red;
+}
