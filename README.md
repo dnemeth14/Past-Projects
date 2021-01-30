@@ -1,2 +1,2 @@
 # Welcome!
-Here are two code samples that are detailed in my resume.
+Here is the Stock Portfolio Manager that is detailed in my resume.
